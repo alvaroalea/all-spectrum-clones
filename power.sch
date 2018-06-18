@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 16
+Sheet 4 17
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Specialized:Jack-DC J4
+L All-Spectrums-rescue:Jack-DC-Connector_Specialized J4
 U 1 1 5B2FBCC4
 P 1350 1600
 F 0 "J4" H 1428 1925 50  0000 C CNN
@@ -213,7 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 1900 5750 1950
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 1 1 5B6F02A6
 P 1850 6150
 AR Path="/5B2EE25C/5B6F02A6" Ref="U?"  Part="1" 
@@ -228,7 +228,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 1850 6150 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 2 1 5B6F02AD
 P 2850 6150
 AR Path="/5B2EE25C/5B6F02AD" Ref="U?"  Part="2" 
@@ -243,7 +243,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2850 6150 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 3 1 5B6F02B4
 P 3500 6150
 AR Path="/5B2EE25C/5B6F02B4" Ref="U?"  Part="3" 
@@ -363,7 +363,7 @@ F 3 "" H 5200 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 7 1 5BA0F3B8
 P 5700 6600
 AR Path="/5B2EE25C/5BA0F3B8" Ref="U?"  Part="7" 

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 16
+Sheet 5 17
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Specialized:Audio-Jack-3_2Switches J5
+L All-Spectrums-rescue:Audio-Jack-3_2Switches-Connector_Specialized J5
 U 1 1 5B306A4F
 P 4800 1600
 F 0 "J5" H 4513 1670 50  0000 R CNN
@@ -26,7 +26,7 @@ F 3 "~" H 5050 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Audio-Jack-3_2Switches J6
+L All-Spectrums-rescue:Audio-Jack-3_2Switches-Connector_Specialized J6
 U 1 1 5B306B5F
 P 4800 3650
 F 0 "J6" H 4512 3720 50  0000 R CNN
@@ -520,7 +520,7 @@ Connection ~ 3750 3650
 NoConn ~ 4600 3550
 NoConn ~ 4600 1500
 $Comp
-L Connector_Specialized:Audio-Jack-3_2Switches J16
+L All-Spectrums-rescue:Audio-Jack-3_2Switches-Connector_Specialized J16
 U 1 1 5B593E48
 P 4800 2700
 F 0 "J16" H 4512 2770 50  0000 R CNN
@@ -560,7 +560,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2600 4600 2600
 $Comp
-L Connector_Specialized:Audio-Jack-3_2Switches J15
+L All-Spectrums-rescue:Audio-Jack-3_2Switches-Connector_Specialized J15
 U 1 1 5BA60F92
 P 8700 1500
 F 0 "J15" H 8413 1570 50  0000 R CNN

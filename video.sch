@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 16
+Sheet 8 17
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Specialized:Conn_Coaxial J7
+L All-Spectrums-rescue:Conn_Coaxial-Connector_Specialized J7
 U 1 1 5B306826
 P 10700 2200
 F 0 "J7" H 10799 2176 50  0000 L CNN
@@ -49,7 +49,7 @@ green
 Text GLabel 1150 1250 0    50   Input ~ 0
 bright
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 4 1 5B536EF3
 P 1000 5550
 AR Path="/5B2EE25C/5B536EF3" Ref="U?"  Part="1" 
@@ -62,7 +62,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 1000 5550 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 5 1 5B536EFA
 P 2000 5550
 AR Path="/5B2EE25C/5B536EFA" Ref="U?"  Part="2" 
@@ -75,7 +75,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2000 5550 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC04 U?
+L All-Spectrums-rescue:74HC04-Logic_74xx U?
 U 6 1 5B536F01
 P 2650 5550
 AR Path="/5B2EE25C/5B536F01" Ref="U?"  Part="3" 
@@ -730,7 +730,7 @@ Wire Wire Line
 	9600 2200 9350 2200
 Connection ~ 9600 2200
 $Comp
-L Connector_Specialized:Mini-DIN-8 J12
+L All-Spectrums-rescue:Mini-DIN-8-Connector_Specialized J12
 U 1 1 5B60CF5D
 P 9050 4400
 F 0 "J12" H 9050 4878 50  0000 C CNN

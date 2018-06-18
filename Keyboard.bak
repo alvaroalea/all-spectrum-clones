@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:All Spectrums-cache
+LIBS:kicad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 16
+Sheet 2 17
 Title ""
 Date ""
 Rev ""
@@ -1949,7 +1950,7 @@ F 3 "" H 8950 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4066 U25
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U25
 U 1 1 5B205FA6
 P 12550 1600
 F 0 "U25" V 12504 1473 50  0000 R CNN
@@ -1960,7 +1961,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 12550 1600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Logic_CMOS_4000:4066 U25
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U25
 U 2 1 5B20621A
 P 12950 2000
 F 0 "U25" V 12904 1873 50  0000 R CNN
@@ -1971,7 +1972,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 12950 2000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Logic_CMOS_4000:4066 U25
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U25
 U 3 1 5B2071E6
 P 13350 2400
 F 0 "U25" V 13396 2273 50  0000 R CNN
@@ -1982,7 +1983,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 13350 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Logic_CMOS_4000:4066 U25
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U25
 U 4 1 5B207C80
 P 13750 2800
 F 0 "U25" V 13796 2673 50  0000 R CNN
@@ -2092,7 +2093,7 @@ Connection ~ 9450 1600
 Wire Wire Line
 	9450 1600 9150 1600
 $Comp
-L Logic_CMOS_4000:4066 U26
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U26
 U 1 1 5B4F643D
 P 12550 4200
 F 0 "U26" V 12504 4073 50  0000 R CNN
@@ -2111,7 +2112,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 4500 13950 4500
 $Comp
-L Logic_CMOS_4000:4066 U26
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U26
 U 2 1 5B598A3F
 P 12900 5150
 F 0 "U26" V 12854 5023 50  0000 R CNN
@@ -2317,7 +2318,7 @@ Text Notes 13350 1950 0    50   ~ 0
 Text Notes 13000 1550 0    50   ~ 0
 8
 $Comp
-L Logic_CMOS_4000:4066 U26
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U26
 U 3 1 5B9BAA80
 P 13350 6000
 F 0 "U26" V 13304 5873 50  0000 R CNN
@@ -2328,7 +2329,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 13350 6000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Logic_CMOS_4000:4066 U26
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U26
 U 4 1 5B9BC4D6
 P 13700 6900
 F 0 "U26" V 13654 6773 50  0000 R CNN
@@ -2351,7 +2352,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 6300 12050 6500
 $Comp
-L Logic_CMOS_4000:4066 U25
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U25
 U 5 1 5BA07275
 P 13650 7900
 F 0 "U25" H 13900 8250 50  0000 R CNN
@@ -2362,7 +2363,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 13650 7900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4066 U26
+L All-Spectrums-rescue:4066-Logic_CMOS_4000 U26
 U 5 1 5BA24F85
 P 14200 7900
 F 0 "U26" H 14450 8250 50  0000 R CNN

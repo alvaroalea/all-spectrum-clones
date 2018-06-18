@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 16
+Sheet 10 17
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Specialized:DB9_Male J_SJS2
+L All-Spectrums-rescue:DB9_Male-Connector_Specialized J_SJS2
 U 1 1 5B860AA3
 P 5900 3200
 F 0 "J_SJS2" H 6080 3246 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 5900 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:DB9_Male J_SJS1
+L All-Spectrums-rescue:DB9_Male-Connector_Specialized J_SJS1
 U 1 1 5B860B89
 P 5900 1700
 F 0 "J_SJS1" H 6080 1746 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 5900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:DB9_Male J_ATARI1
+L All-Spectrums-rescue:DB9_Male-Connector_Specialized J_ATARI1
 U 1 1 5B860BEF
 P 8350 1700
 F 0 "J_ATARI1" H 8530 1746 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 8350 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:DB9_Male J_ATARI2
+L All-Spectrums-rescue:DB9_Male-Connector_Specialized J_ATARI2
 U 1 1 5B860C15
 P 8350 3150
 F 0 "J_ATARI2" H 8530 3196 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 8350 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:DB9_Male J_KEMPSTON_ATARI1
+L All-Spectrums-rescue:DB9_Male-Connector_Specialized J_KEMPSTON_ATARI1
 U 1 1 5B860C77
 P 8350 5100
 F 0 "J_KEMPSTON_ATARI1" H 8529 5146 50  0000 L CNN

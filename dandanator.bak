@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:All Spectrums-cache
+LIBS:kicad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 15 17
 Title ""
 Date ""
 Rev ""
@@ -908,7 +909,7 @@ U 1 1 5B244362
 P 5650 5350
 F 0 "J30" H 5700 6417 50  0000 C CNN
 F 1 "cartridge_DandanatorVC2" H 5700 6326 50  0000 C CNN
-F 2 "SINCLAIR:DandanatorVC2.0_Cartridge_Female" H 6800 5200 50  0001 C CNN
+F 2 "SINCLAIR:CART_DAN_CONN" H 6800 5200 50  0001 C CNN
 F 3 "~" H 6800 5200 50  0001 C CNN
 	1    5650 5350
 	1    0    0    -1  

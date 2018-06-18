@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:All Spectrums-cache
+LIBS:kicad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 16
+Sheet 14 17
 Title ""
 Date ""
 Rev ""
@@ -87,7 +88,7 @@ F 3 "" H 11700 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 1 1 5B1B8575
 P 9500 2050
 F 0 "U3" H 9500 2367 50  0000 C CNN
@@ -98,7 +99,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 9500 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 2 1 5B1B85E5
 P 9900 1300
 F 0 "U3" H 9900 1617 50  0000 C CNN
@@ -109,7 +110,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 9900 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 3 1 5B1B8669
 P 9900 1800
 F 0 "U3" H 9900 2117 50  0000 C CNN
@@ -120,7 +121,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 9900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 6 1 5B1B86AF
 P 9900 2300
 F 0 "U3" H 9900 2617 50  0000 C CNN
@@ -247,7 +248,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 1300 10200 1300
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 5 1 5B1B862F
 P 9500 1550
 F 0 "U3" H 9500 1867 50  0000 C CNN
@@ -797,7 +798,7 @@ Connection ~ 4650 5650
 Wire Wire Line
 	4650 5650 4750 5650
 $Comp
-L Logic_74xx:74LS00 U28
+L All-Spectrums-rescue:74LS00-Logic_74xx U28
 U 1 1 5B437CE9
 P 8050 3500
 F 0 "U28" H 8050 3183 50  0000 C CNN
@@ -808,7 +809,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8050 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Logic_74xx:74LS00 U28
+L All-Spectrums-rescue:74LS00-Logic_74xx U28
 U 2 1 5B437D95
 P 9350 3500
 F 0 "U28" H 9350 3183 50  0000 C CNN
@@ -934,7 +935,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3000 6550 3000
 $Comp
-L Logic_74xx:74LS126 U29
+L All-Spectrums-rescue:74LS126-Logic_74xx U29
 U 4 1 5B562568
 P 10000 4250
 F 0 "U29" H 10000 4567 50  0000 C CNN
@@ -945,7 +946,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS126" H 10000 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS126 U29
+L All-Spectrums-rescue:74LS126-Logic_74xx U29
 U 3 1 5B56D6DE
 P 10250 4650
 F 0 "U29" H 10250 4967 50  0000 C CNN
@@ -956,7 +957,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS126" H 10250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS126 U29
+L All-Spectrums-rescue:74LS126-Logic_74xx U29
 U 1 1 5B56D732
 P 10000 5100
 F 0 "U29" H 10000 5417 50  0000 C CNN
@@ -1004,7 +1005,7 @@ F 3 "" H 10250 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Logic_74xx:74LS126 U29
+L All-Spectrums-rescue:74LS126-Logic_74xx U29
 U 5 1 5B5F7599
 P 10050 10400
 F 0 "U29" H 9800 10750 50  0000 L CNN
@@ -1015,7 +1016,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS126" H 10050 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS00 U28
+L All-Spectrums-rescue:74LS00-Logic_74xx U28
 U 5 1 5B5F76E6
 P 9600 10400
 F 0 "U28" H 9850 10050 50  0000 R CNN
@@ -1026,7 +1027,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9600 10400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 7 1 5B5F7893
 P 9150 10400
 F 0 "U3" H 9000 10750 50  0000 C CNN
@@ -1190,7 +1191,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 10600 2200 10500
 $Comp
-L Logic_74xx:74LS175 U30
+L All-Spectrums-rescue:74LS175-Logic_74xx U30
 U 1 1 5B683FBF
 P 7050 4550
 F 0 "U30" H 6800 5100 50  0000 C CNN
@@ -1357,7 +1358,7 @@ Connection ~ 8400 2700
 Wire Wire Line
 	8400 2700 11200 2700
 $Comp
-L Logic_74xx:74LS06 U3
+L All-Spectrums-rescue:74LS06-Logic_74xx U3
 U 4 1 5BA454CD
 P 8200 5350
 F 0 "U3" H 8200 5667 50  0000 C CNN
@@ -1658,7 +1659,7 @@ F 3 "" H 11500 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS374 U33
+L All-Spectrums-rescue:74LS374-Logic_74xx U33
 U 1 1 5B1D5091
 P 9150 7150
 F 0 "U33" H 8900 7800 50  0000 C CNN
@@ -1754,7 +1755,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 6250 10750 6250
 $Comp
-L Logic_74xx:74LS126 U29
+L All-Spectrums-rescue:74LS126-Logic_74xx U29
 U 2 1 5B5A0A20
 P 9800 8600
 F 0 "U29" H 9800 8917 50  0000 C CNN
@@ -2059,7 +2060,7 @@ Wire Wire Line
 	1300 6350 1750 6350
 Connection ~ 1300 7850
 $Comp
-L Logic_74xx:74LS27 U34
+L All-Spectrums-rescue:74LS27-Logic_74xx U34
 U 2 1 5C10F84E
 P 2200 7850
 F 0 "U34" H 2200 8175 50  0000 C CNN
@@ -2070,7 +2071,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 2200 7850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS00 U28
+L All-Spectrums-rescue:74LS00-Logic_74xx U28
 U 4 1 5C13DCAC
 P 2950 8150
 F 0 "U28" H 2950 7833 50  0000 C CNN
@@ -2081,7 +2082,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2950 8150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Logic_74xx:74LS27 U34
+L All-Spectrums-rescue:74LS27-Logic_74xx U34
 U 4 1 5C13DF1E
 P 10500 10400
 F 0 "U34" H 10750 10750 50  0000 R CNN
@@ -2096,7 +2097,7 @@ Wire Wire Line
 	10500 10900 10050 10900
 Connection ~ 10500 9900
 $Comp
-L Logic_74xx:74LS27 U34
+L All-Spectrums-rescue:74LS27-Logic_74xx U34
 U 1 1 5C16DA38
 P 3900 8050
 F 0 "U34" H 3900 8375 50  0000 C CNN
@@ -2107,7 +2108,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 3900 8050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS27 U34
+L All-Spectrums-rescue:74LS27-Logic_74xx U34
 U 3 1 5C16DB22
 P 3900 8600
 F 0 "U34" H 3900 8925 50  0000 C CNN
@@ -2118,7 +2119,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 3900 8600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74LS00 U28
+L All-Spectrums-rescue:74LS00-Logic_74xx U28
 U 3 1 5C16E034
 P 9300 9000
 F 0 "U28" H 9300 9325 50  0000 C CNN

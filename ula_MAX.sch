@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 16
+Sheet 7 17
 Title ""
 Date ""
 Rev ""
@@ -574,7 +574,7 @@ Wire Wire Line
 	9750 1100 9350 1100
 Connection ~ 9350 1100
 $Comp
-L Logic_74xx:74HC04 U6
+L All-Spectrums-rescue:74HC04-Logic_74xx U6
 U 7 1 5B56995C
 P 10900 1350
 F 0 "U6" H 10900 1667 50  0000 C CNN

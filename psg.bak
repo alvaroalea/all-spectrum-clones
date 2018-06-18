@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:All Spectrums-cache
+LIBS:kicad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 16
+Sheet 9 17
 Title ""
 Date ""
 Rev ""
@@ -256,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2100 4450 2150
 $Comp
-L Logic_74xx:74HC74 U18
+L All-Spectrums-rescue:74HC74-Logic_74xx U18
 U 1 1 5B1705C4
 P 2700 6400
 F 0 "U18" H 2500 6650 50  0000 C CNN
@@ -267,7 +268,7 @@ F 3 "74xx/74hc_hct74.pdf" H 2700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC00 U17
+L All-Spectrums-rescue:74HC00-Logic_74xx U17
 U 2 1 5B170749
 P 1150 6400
 F 0 "U17" H 1150 6725 50  0000 C CNN
@@ -278,7 +279,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 1150 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC00 U17
+L All-Spectrums-rescue:74HC00-Logic_74xx U17
 U 4 1 5B17082C
 P 2000 6400
 F 0 "U17" H 2000 6725 50  0000 C CNN
@@ -546,7 +547,7 @@ F 3 "~" H 4350 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC00 U17
+L All-Spectrums-rescue:74HC00-Logic_74xx U17
 U 5 1 5B21716E
 P 3950 6900
 F 0 "U17" H 3800 7250 50  0000 C CNN
@@ -557,7 +558,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 3950 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC74 U18
+L All-Spectrums-rescue:74HC74-Logic_74xx U18
 U 3 1 5B2171EA
 P 4900 6900
 F 0 "U18" H 4700 7250 50  0000 C CNN
@@ -752,7 +753,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 2050 9250 2050
 $Comp
-L Connector_Specialized:RJ45 J20
+L All-Spectrums-rescue:RJ45-Connector_Specialized J20
 U 1 1 5B3206FA
 P 10300 2600
 F 0 "J20" V 10423 3080 50  0000 L CNN
@@ -979,7 +980,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 5000 9250 5000
 $Comp
-L Connector_Specialized:RJ45 J23
+L All-Spectrums-rescue:RJ45-Connector_Specialized J23
 U 1 1 5B3F0B3B
 P 10300 5550
 F 0 "J23" V 10423 6030 50  0000 L CNN
@@ -1075,7 +1076,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 5800 8700 5800
 $Comp
-L Connector_Specialized:DB9_Female J21
+L All-Spectrums-rescue:DB9_Female-Connector_Specialized J21
 U 1 1 5B492676
 P 10250 3650
 F 0 "J21" H 10429 3696 50  0000 L CNN
@@ -1134,7 +1135,7 @@ F 3 "~" H 3550 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Audio-Jack-3_2Switches J18
+L All-Spectrums-rescue:Audio-Jack-3_2Switches-Connector_Specialized J18
 U 1 1 5B155254
 P 4250 1900
 F 0 "J18" H 4250 2350 50  0000 R CNN

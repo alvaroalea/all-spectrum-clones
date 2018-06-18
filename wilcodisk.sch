@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 16
+Sheet 12 17
 Title ""
 Date ""
 Rev ""
@@ -50,13 +50,13 @@ A14
 Text GLabel 1700 2000 0    50   Input ~ 0
 A15
 Text GLabel 2550 2100 2    50   Input ~ 0
-RW
+WR
 Text GLabel 1700 2100 0    50   Input ~ 0
 RD
 Text GLabel 2550 2200 2    50   Input ~ 0
 IOREQ
-Text GLabel 1700 2200 0    50   Input ~ 0
-RESET
+Text GLabel 1400 2200 0    50   Input ~ 0
+~RESET
 $Comp
 L power:+5V #PWR0207
 U 1 1 5B207736
@@ -75,7 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 2200 2550 2200
 Wire Wire Line
-	1700 2200 1950 2200
+	1400 2200 1950 2200
 Wire Wire Line
 	1700 2100 1950 2100
 Wire Wire Line
@@ -117,8 +117,6 @@ NoConn ~ 1950 2300
 NoConn ~ 1950 1400
 NoConn ~ 1950 1500
 NoConn ~ 1950 1600
-NoConn ~ 1950 1200
-NoConn ~ 1950 1700
 Text GLabel 2700 1200 2    50   Input ~ 0
 D0
 Text GLabel 2700 1300 2    50   Input ~ 0
@@ -147,7 +145,7 @@ F 3 "~" H 4700 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_TTL_IEEE:7410 U23
+L All-Spectrums-rescue:7410-Logic_TTL_IEEE U23
 U 1 1 5B1A7486
 P 2300 5550
 F 0 "U23" H 2300 5966 50  0000 C CNN
@@ -158,7 +156,7 @@ F 3 "" H 2300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_TTL_IEEE:7410 U23
+L All-Spectrums-rescue:7410-Logic_TTL_IEEE U23
 U 3 1 5B1A754C
 P 2300 6200
 F 0 "U23" H 2300 6616 50  0000 C CNN
@@ -169,7 +167,7 @@ F 3 "" H 2300 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_TTL_IEEE:7410 U23
+L All-Spectrums-rescue:7410-Logic_TTL_IEEE U23
 U 2 1 5B1A75C7
 P 3500 5850
 F 0 "U23" H 3500 6266 50  0000 C CNN
@@ -545,4 +543,12 @@ F 3 "~" H 10000 5200 50  0001 C CNN
 	1    8850 5200
 	1    0    0    -1  
 $EndComp
+Text GLabel 1700 1700 0    50   Input ~ 0
+A12
+Text GLabel 1700 1200 0    50   Input ~ 0
+D3
+Wire Wire Line
+	1700 1200 1950 1200
+Wire Wire Line
+	1700 1700 1950 1700
 $EndSCHEMATC
