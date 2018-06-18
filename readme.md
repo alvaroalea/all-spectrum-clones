@@ -12,12 +12,12 @@ personalizado con las siguientes opciones:
 * JOYSTICK - SJS o ATARI, normas SINCLAIR o KEMPSTON
 * TECLADO - integrado de 40 Teclas, por transistores (arlequin) o diodos
 * TECLADO - conexion facil para teclas externas, DEL, BREAK, CURSORES, BLOQ SHIFT, EXTRA, GRAF
-* DISCO - Conexion para interfaz multisistema de wilco (compatible +3), interfaz +D
+* DISCO - Conexion para interfaz multisistema de wilco (compatible +3), interfaz +D o Interfaz +3
 * ALMACENAMIENTO - Interfaz IDE de 8bits, Cartucho IF2, dandanator integrado o con cartuchos VC2.0 
 
 
 ## Futuro:
-* DISCO - beta 128 /  +3 integrado
+* DISCO - beta 128, ZXMMC, DIVIDE
 * MEMORIA - Usar los 256K tipo ruso
 * VIDEO - conector euroconector
 * ULA - por chips del arlequin
